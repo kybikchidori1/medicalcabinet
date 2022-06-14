@@ -1,31 +1,7 @@
 import React, { FC } from "react";
-import { Route, HashRouter, Redirect } from "react-router-dom";
-import Navigation from "./components/Navigation/Navigation";
-import Header from "./components/Header/Header";
-import Profile from "./components/Profile/Profile";
-import MyNotes from "./components/Profile/MyNotes/MyNotes";
 
-const App: FC = (props) => {
-  return (
-    <HashRouter>
-      <div className="wrapper">
-        <div className="navigation">
-          <Navigation />
-        </div>
-        <div className="content">
-          <Header />
-          <div>
-            <Route exact path="/profile" render={() => <Profile />} />
-            <Route
-              path="/profile/myNotes"
-              render={() => <MyNotes store={props.store} />}
-            />
-            <Redirect from="/" to="/profile" />
-          </div>
-        </div>
-      </div>
-    </HashRouter>
-  );
+const App: FC = () => {
+  return <div>ASdasd</div>;
 };
 
 export default App;
