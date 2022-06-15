@@ -1,0 +1,36 @@
+.main-page {
+  width: 100%;
+  height: 100%;
+}
+
+.main-page__header {
+  height: 55px;
+  background: #50caff;
+}
+
+.main-page__body {
+  height: calc(100vh - 56px);
+  display: flex;
+}
+
+.main-page__side-bar {
+  height: 100%;
+  width: 14%;
+  background: #003b72;
+}
+
+.side-bar__items {
+  color: white;
+}
+
+.help {
+  color: white;
+  text-decoration: none;
+}
+
+.main-page__box-content {
+  width: 86%;
+  height: 100%;
+  background-color: #e5e5e5;
+  overflow: auto;
+}
