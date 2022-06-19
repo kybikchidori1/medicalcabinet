@@ -441,6 +441,14 @@ textarea {
   padding: 0.2em 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
 /* END STYLE RESET */
 
 /* START FONTS */
