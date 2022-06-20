@@ -1,8 +1,8 @@
 import { FC, SVGProps } from "react";
 
 const Group: FC<SVGProps<SVGSVGElement>> = ({
-  width = 18,
-  height = 18,
+  width = 16,
+  height = 16,
   ...props
 }) => {
   return (
@@ -10,8 +10,8 @@ const Group: FC<SVGProps<SVGSVGElement>> = ({
       width={width}
       height={height}
       viewBox="0 0 20 20"
-      fill="white"
-      stroke="white"
+      fill="#50caff"
+      stroke="#50caff"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
