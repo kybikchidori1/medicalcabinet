@@ -7,13 +7,24 @@
   background: #50caff;
 }
 
-.header-bottom__title {
+.header-bottom__item {
+  margin-left: 19px;
+}
+
+.header-bottom__avatar-btn {
+  padding: 24.5px;
+  border-radius: 50px;
+  border: none;
+}
+
+.header-bottom__group {
+  margin-left: 7px;
+  margin-right: 40px;
 }
 
 .header-bottom__menu {
   display: flex;
   align-items: center;
-  display: flex;
   justify-content: center;
   list-style: none;
   white-space: nowrap;
