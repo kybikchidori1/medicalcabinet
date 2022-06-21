@@ -2,14 +2,14 @@ import { FC, SVGProps } from "react";
 
 const Group: FC<SVGProps<SVGSVGElement>> = ({
   width = 16,
-  height = 16,
+  height = 13.25,
   ...props
 }) => {
   return (
     <svg
       width={width}
       height={height}
-      viewBox="0 0 20 20"
+      viewBox="0 -3 15 20"
       fill="#50caff"
       stroke="#50caff"
       xmlns="http://www.w3.org/2000/svg"

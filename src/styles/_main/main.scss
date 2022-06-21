@@ -704,3 +704,24 @@ div {
     /* Safari, Android, iOS */
       url("../../etc/fonts/rubik-v20-latin-900italic.svg#Rubik") format("svg"); /* Legacy iOS */
 }
+
+/* END FONTS */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
