@@ -1,4 +1,4 @@
-.main-page__header {
+.header {
   width: 100%;
   justify-content: space-between;
   display: flex;
@@ -6,7 +6,7 @@
   height: 55px;
   background: #50caff;
 }
-.header-bottom__menu {
+.header__menu {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
   white-space: nowrap;
 }
 
-.header-bottom__title {
+.header__title {
   margin-left: 40px;
   white-space: nowrap;
   font-family: Rubik;
@@ -24,17 +24,17 @@
   color: white;
 }
 
-.header-bottom__item {
+.header__item {
   margin-left: 19px;
 }
 
-.header-bottom__avatar-btn {
+.header__avatar-btn {
   padding: 24.5px;
   border-radius: 50px;
   border: none;
 }
 
-.header-bottom__group {
+.header__group {
   background: white;
   margin-left: 7px;
   margin-right: 40px;

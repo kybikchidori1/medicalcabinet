@@ -1,0 +1,19 @@
+.side-bar {
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 190px;
+  background: #003b72;
+}
+
+.side-bar__item {
+}
+
+.side-bar__link {
+  white-space: nowrap;
+  font-family: Rubik;
+  font-weight: 400;
+  color: white;
+  font-size: 14px;
+  line-height: 16.59px;
+}
