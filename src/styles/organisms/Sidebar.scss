@@ -1,11 +1,30 @@
 .side-bar {
   display: flex;
   height: 100%;
+  float: left;
   width: 190px;
   background: #003b72;
 }
 
 .side-bar__item {
+}
+
+.side-bar__logo {
+  white-space: nowrap;
+  font-family: Rubik;
+  font-weight: 400;
+  color: white;
+  font-size: 14px;
+  line-height: 16.59px;
+
+  display: flex;
+  align-items: center;
+  height: 55px;
+  margin-left: 20px;
+}
+
+.side-bar__icon {
+  margin-right: 14px;
 }
 
 .side-bar__link {
@@ -15,4 +34,35 @@
   color: white;
   font-size: 14px;
   line-height: 16.59px;
+
+  display: flex;
+  align-items: center;
+  height: 46px;
+  margin: 10px 23px 10px 20px;
+}
+
+.side-bar__btn {
+  white-space: nowrap;
+  font-family: Rubik;
+  font-weight: 500;
+  color: white;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #7761ff;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: solid #7761ff;
+}
+
+.side-bar__help {
+  color: white;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
 }
